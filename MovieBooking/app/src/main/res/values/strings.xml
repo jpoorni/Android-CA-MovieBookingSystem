@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MovieBooking</string>
+    <string name="button1_main">MOVIE</string>
+    <string name="button2_main">THEATRE</string>
+    <string name="button3_main">BOOKING</string>
+    <string name="button4_main">PROMOTION</string>
+    <string name="textView1_payment">Credit Card No.</string>
+    <string name="textView2_payment">Credit Card Expiry Date</string>
+    <string name="textView3_payment">CVV2/CVC2</string>
+    <string name="textView4_payment">Name</string>
+    <string name="textView5_payment">Phone No.</string>
+    <string name="MAP">MAP</string>
+    <string name="PATH">OK</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="ListItem">
+        <item>9:30</item>
+        <item>12:40</item>
+        <item>16:10</item>
+        <item>19:15</item>
+    </string-array>
+    <string-array name="person">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="title_activity_theatre_maps">Map</string>
+</resources>

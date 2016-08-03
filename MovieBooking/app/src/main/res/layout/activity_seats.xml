@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.student.moviebooking.SeatsActivity"
+    android:id="@+id/seats">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:id="@+id/buttonConfirm_seats"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView"
+        android:textSize="25dp"
+        android:layout_marginStart="62dp"
+        android:text="price"
+        android:layout_alignBottom="@+id/buttonConfirm_seats"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxA2_seats"
+        android:layout_marginTop="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxA3_seats"
+        android:layout_alignTop="@+id/checkBoxA2_seats"
+        android:layout_toEndOf="@+id/checkBoxA2_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxA4_seats"
+        android:layout_alignTop="@+id/checkBoxA3_seats"
+        android:layout_toEndOf="@+id/checkBoxA3_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxA5_seats"
+        android:layout_alignTop="@+id/checkBoxA3_seats"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxA6_seats"
+        android:layout_alignTop="@+id/checkBoxA5_seats"
+        android:layout_toEndOf="@+id/checkBoxA5_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxA7_seats"
+        android:layout_alignTop="@+id/checkBoxA6_seats"
+        android:layout_toEndOf="@+id/checkBoxA6_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxA8_seats"
+        android:layout_alignTop="@+id/checkBoxA7_seats"
+        android:layout_toEndOf="@+id/checkBoxA7_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxA1_seats"
+        android:layout_alignTop="@+id/checkBoxA2_seats"
+        android:layout_toStartOf="@+id/checkBoxA2_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxA9_seats"
+        android:layout_alignTop="@+id/checkBoxA8_seats"
+        android:layout_toEndOf="@+id/checkBoxA8_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxB1_seats"
+        android:layout_below="@+id/checkBoxA2_seats"
+        android:layout_toStartOf="@+id/checkBoxA2_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxC1_seats"
+        android:layout_below="@+id/checkBoxB1_seats"
+        android:layout_toLeftOf="@+id/checkBoxA2_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxD1_seats"
+        android:layout_below="@+id/checkBoxC1_seats"
+        android:layout_toLeftOf="@+id/checkBoxA2_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxE1_seats"
+        android:layout_below="@+id/checkBoxD1_seats"
+        android:layout_toLeftOf="@+id/checkBoxA2_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxF1_seats"
+        android:layout_below="@+id/checkBoxE1_seats"
+        android:layout_toLeftOf="@+id/checkBoxA2_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxG1_seats"
+        android:layout_below="@+id/checkBoxF1_seats"
+        android:layout_toLeftOf="@+id/checkBoxA2_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxB2_seats"
+        android:layout_below="@+id/checkBoxA2_seats"
+        android:layout_toEndOf="@+id/checkBoxB1_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxC2_seats"
+        android:layout_below="@+id/checkBoxB2_seats"
+        android:layout_toRightOf="@+id/checkBoxB1_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxD2_seats"
+        android:layout_below="@+id/checkBoxC2_seats"
+        android:layout_toRightOf="@+id/checkBoxB1_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxE2_seats"
+        android:layout_below="@+id/checkBoxD2_seats"
+        android:layout_toRightOf="@+id/checkBoxB1_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxF2_seats"
+        android:layout_below="@+id/checkBoxE2_seats"
+        android:layout_toRightOf="@+id/checkBoxB1_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxG2_seats"
+        android:layout_below="@+id/checkBoxF2_seats"
+        android:layout_toRightOf="@+id/checkBoxB1_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxB3_seats"
+        android:layout_below="@+id/checkBoxA2_seats"
+        android:layout_toEndOf="@+id/checkBoxB2_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxC3_seats"
+        android:layout_below="@+id/checkBoxB3_seats"
+        android:layout_toRightOf="@+id/checkBoxB2_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxD3_seats"
+        android:layout_below="@+id/checkBoxC3_seats"
+        android:layout_toRightOf="@+id/checkBoxB2_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxE3_seats"
+        android:layout_below="@+id/checkBoxD3_seats"
+        android:layout_toRightOf="@+id/checkBoxB2_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxF3_seats"
+        android:layout_below="@+id/checkBoxE3_seats"
+        android:layout_toRightOf="@+id/checkBoxB2_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxG3_seats"
+        android:layout_below="@+id/checkBoxF3_seats"
+        android:layout_toRightOf="@+id/checkBoxB2_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxC4_seats"
+        android:layout_below="@+id/checkBoxB4_seats"
+        android:layout_toLeftOf="@+id/checkBoxA5_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxD4_seats"
+        android:layout_below="@+id/checkBoxC4_seats"
+        android:layout_toLeftOf="@+id/checkBoxA5_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxB4_seats"
+        android:layout_below="@+id/checkBoxA4_seats"
+        android:layout_toStartOf="@+id/checkBoxA5_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxF4_seats"
+        android:layout_below="@+id/checkBoxE4_seats"
+        android:layout_toLeftOf="@+id/checkBoxA5_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxG4_seats"
+        android:layout_below="@+id/checkBoxF4_seats"
+        android:layout_toLeftOf="@+id/checkBoxA5_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxE4_seats"
+        android:layout_below="@+id/checkBoxD4_seats"
+        android:layout_toLeftOf="@+id/checkBoxA5_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxB9_seats"
+        android:layout_below="@+id/checkBoxA5_seats"
+        android:layout_alignEnd="@+id/checkBoxA9_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxC9_seats"
+        android:layout_below="@+id/checkBoxB9_seats"
+        android:layout_alignRight="@+id/checkBoxA9_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxD9_seats"
+        android:layout_below="@+id/checkBoxC9_seats"
+        android:layout_alignRight="@+id/checkBoxA9_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxE9_seats"
+        android:layout_below="@+id/checkBoxD9_seats"
+        android:layout_alignRight="@+id/checkBoxA9_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxF9_seats"
+        android:layout_below="@+id/checkBoxE9_seats"
+        android:layout_alignRight="@+id/checkBoxA9_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxG9_seats"
+        android:layout_below="@+id/checkBoxF9_seats"
+        android:layout_alignRight="@+id/checkBoxA9_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxB5_seats"
+        android:layout_below="@+id/checkBoxA2_seats"
+        android:layout_toStartOf="@+id/checkBoxA6_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxC5_seats"
+        android:layout_below="@+id/checkBoxB5_seats"
+        android:layout_toLeftOf="@+id/checkBoxA6_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxD5_seats"
+        android:layout_below="@+id/checkBoxC5_seats"
+        android:layout_toLeftOf="@+id/checkBoxA6_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxE5_seats"
+        android:layout_below="@+id/checkBoxD5_seats"
+        android:layout_toLeftOf="@+id/checkBoxA6_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxF5_seats"
+        android:layout_below="@+id/checkBoxE5_seats"
+        android:layout_toLeftOf="@+id/checkBoxA6_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxG5_seats"
+        android:layout_below="@+id/checkBoxF5_seats"
+        android:layout_toLeftOf="@+id/checkBoxA6_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxB6_seats"
+        android:layout_below="@+id/checkBoxA5_seats"
+        android:layout_toEndOf="@+id/checkBoxB5_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxC6_seats"
+        android:layout_below="@+id/checkBoxB6_seats"
+        android:layout_toRightOf="@+id/checkBoxB5_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxD6_seats"
+        android:layout_below="@+id/checkBoxC6_seats"
+        android:layout_toRightOf="@+id/checkBoxB5_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxE6_seats"
+        android:layout_below="@+id/checkBoxD6_seats"
+        android:layout_toRightOf="@+id/checkBoxB5_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxF6_seats"
+        android:layout_below="@+id/checkBoxE6_seats"
+        android:layout_toRightOf="@+id/checkBoxB5_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxG6_seats"
+        android:layout_below="@+id/checkBoxF6_seats"
+        android:layout_toRightOf="@+id/checkBoxB5_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxB7_seats"
+        android:layout_below="@+id/checkBoxA3_seats"
+        android:layout_toStartOf="@+id/checkBoxA8_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxC7_seats"
+        android:layout_below="@+id/checkBoxB7_seats"
+        android:layout_toLeftOf="@+id/checkBoxA8_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxD7_seats"
+        android:layout_below="@+id/checkBoxC7_seats"
+        android:layout_toLeftOf="@+id/checkBoxA8_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxE7_seats"
+        android:layout_below="@+id/checkBoxD7_seats"
+        android:layout_toLeftOf="@+id/checkBoxA8_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxF7_seats"
+        android:layout_below="@+id/checkBoxE7_seats"
+        android:layout_toLeftOf="@+id/checkBoxA8_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxG7_seats"
+        android:layout_below="@+id/checkBoxF7_seats"
+        android:layout_toLeftOf="@+id/checkBoxA8_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxB8_seats"
+        android:layout_below="@+id/checkBoxA4_seats"
+        android:layout_toStartOf="@+id/checkBoxA9_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxC8_seats"
+        android:layout_below="@+id/checkBoxB8_seats"
+        android:layout_toLeftOf="@+id/checkBoxA9_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxD8_seats"
+        android:layout_below="@+id/checkBoxC8_seats"
+        android:layout_toLeftOf="@+id/checkBoxA9_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxE8_seats"
+        android:layout_below="@+id/checkBoxD8_seats"
+        android:layout_toLeftOf="@+id/checkBoxA9_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxF8_seats"
+        android:layout_below="@+id/checkBoxE8_seats"
+        android:layout_toLeftOf="@+id/checkBoxA9_seats" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxG8_seats"
+        android:layout_below="@+id/checkBoxF8_seats"
+        android:layout_toLeftOf="@+id/checkBoxA9_seats" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Screen"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+
+
+</RelativeLayout>
